@@ -92,7 +92,7 @@ public class Main {
                             Long libIdForBook = scanner.nextLong();
                             System.out.println("Введите ID книги:");
                             Long bookId = scanner.nextLong();
-                            scanner.nextLine(); // для перевода строки
+                            scanner.nextLine();
                             System.out.println("Введите название книги:");
                             String bookName = scanner.nextLine();
                             System.out.println("Введите автора книги:");
